@@ -1,0 +1,17 @@
+/*Путешествия по России*/
+.lead__title {
+    border: yellow solid 1px;
+
+    width: 288px;
+    height: 88px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+    /* or 110% */
+    text-align: center;
+    /*padding-top: 106px;*/
+    /*padding-left: 16px;*/
+    /*padding-right: 16px;*/
+    /*margin-bottom: 16px;*/
+    margin: 0 auto;
+}
