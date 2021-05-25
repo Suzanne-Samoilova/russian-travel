@@ -1,0 +1,7 @@
+/*Одна карточка в таблице*/
+.places__place {
+    min-width: 320px;
+    list-style: none;
+    padding: 0;
+    margin-top: 50px;
+}
