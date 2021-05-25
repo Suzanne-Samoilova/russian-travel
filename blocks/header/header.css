@@ -1,8 +1,6 @@
 .header {
     min-width: 288px;
-    height: 42px;
-    margin: 0 16px 48px;
-    padding-top: 16px;
+    padding: 16px 16px 48px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
