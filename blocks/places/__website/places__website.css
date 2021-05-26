@@ -1,5 +1,12 @@
 .places__website {
-    /*width: 288px;*/
-    /*height: 46px;*/
     margin: 32px 16px 0;
+}
+
+@media screen and (min-width: 768px) {
+    .places__website {
+        border: red solid 1px;
+
+        margin: auto auto 0 0;
+        grid-area: website;
+    }
 }
