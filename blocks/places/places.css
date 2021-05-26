@@ -3,6 +3,7 @@
     padding: 0;
     margin: 14px auto 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 320px);
-    grid-template-rows: repeat(auto-fit, 1fr);
+    /*grid-template-columns: repeat(auto-fit, 320px);*/
+    /*grid-template-rows: repeat(auto-fit, 1fr);*/
+    grid-template-columns: repeat(auto-fit, 100%);
 }

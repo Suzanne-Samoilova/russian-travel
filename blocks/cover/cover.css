@@ -1,10 +1,11 @@
 .cover {
-    border: red solid 1px;
-
     margin-top: 66px;
     background-image: url("../../images/cover-trains.jpg");
-    width: 100vw;
-    height: 62.5vw;
+
+    /*начинает давать горизонтальный скролл*/
+    /*height: 62.5vw;*/
+
+    width: 100%;
     background-size: cover;
     background-position: center;
     padding: 33px 16px;
@@ -27,11 +28,11 @@
     opacity: 0.8;
 }
 
-@media screen and (min-width: 768px) {
-    .cover {
-        padding: 115px 104px;
-    }
-}
+/*@media screen and (min-width: 768px) {*/
+/*    .cover {*/
+/*        padding: 115px 104px;*/
+/*    }*/
+/*}*/
 
 /*@media screen and (min-width: 1024px) {*/
 /*    .photo {*/

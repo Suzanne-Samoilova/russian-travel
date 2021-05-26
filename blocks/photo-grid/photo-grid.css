@@ -3,6 +3,8 @@
     display: grid;
     gap: 12px;
     grid-template-columns: repeat(auto-fit, 288px);
-    grid-template-rows: repeat(auto-fit, 1fr);
+    /*grid-template-rows: repeat(auto-fit, 1fr);*/
     grid-auto-flow: row;
+    justify-content: center;
+    overflow: hidden;
 }

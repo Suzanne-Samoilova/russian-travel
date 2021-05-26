@@ -1,5 +1,5 @@
 .header {
-    min-width: 288px;
+    /*min-width: 288px;*/
     padding: 16px 16px 48px;
     display: flex;
     flex-direction: row;
