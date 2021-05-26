@@ -1,12 +1,19 @@
 /*Путешествия по России*/
 .lead__title {
     min-width: 288px;
-    /*list-style: none;*/
-    /*padding-left: 0;*/
     font-weight: 900;
     font-size: 40px;
     line-height: 44px;
     /* or 110% */
     text-align: center;
     margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .lead__title {
+        font-style: normal;
+        font-size: 96px;
+        line-height: 100px;
+        /* or 104% */
+    }
 }
