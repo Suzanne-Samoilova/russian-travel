@@ -4,7 +4,6 @@
     font-weight: 900;
     font-size: 40px;
     line-height: 44px;
-    /* or 110% */
     text-align: center;
     margin: 0 auto;
 }
@@ -14,6 +13,5 @@
         font-style: normal;
         font-size: 96px;
         line-height: 100px;
-        /* or 104% */
     }
 }

@@ -6,7 +6,6 @@
     font-weight: 900;
     font-size: 32px;
     line-height: 35px;
-    /* or 109% */
     text-align: center;
     position: relative;
 }
@@ -15,7 +14,5 @@
     .cover__title {
         font-size: 72px;
         line-height: 76px;
-        /* or 106% */
     }
 }
-

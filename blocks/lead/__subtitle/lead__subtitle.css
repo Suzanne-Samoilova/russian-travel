@@ -1,11 +1,9 @@
 /*Настоящая страна не в выпусках новостей*/
 .lead__subtitle {
-    /*width: 288px;*/
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
-    /* or 125% */
     text-align: center;
     margin: 16px auto 0;
 }
@@ -14,7 +12,6 @@
     .lead__subtitle {
         font-size: 30px;
         line-height: 36px;
-        /* or 120% */
         margin: 32px auto 0;
     }
 }
