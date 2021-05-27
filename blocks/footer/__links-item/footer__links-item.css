@@ -8,6 +8,10 @@
     /* identical to box height, or 100% */
 }
 
+.footer__links-item:hover {
+    opacity: 0.8;
+}
+
 @media screen and (min-width: 768px) {
     .footer__links-item {
         display: flex;
@@ -17,4 +21,5 @@
         line-height: 18px;
     }
 }
+
 

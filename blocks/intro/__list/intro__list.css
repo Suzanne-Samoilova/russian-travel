@@ -12,3 +12,14 @@
         margin: 33px 24px 0;
     }
 }
+@media screen and (min-width: 1024px) {
+    .intro__list {
+        margin: 33px auto 0 48px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .intro__list {
+        margin: 33px auto 0 148px;
+    }
+}

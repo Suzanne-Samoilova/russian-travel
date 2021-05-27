@@ -17,3 +17,16 @@
         max-width: 330px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .places__title {
+        font-size: 72px;
+        line-height: 76px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .places__title {
+    }
+}
+

@@ -19,5 +19,17 @@
         line-height: 22px;
         /* or 122% */
         max-width: 360px;
+
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cover__subtitle {
+
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .cover__subtitle {
     }
 }

@@ -1,10 +1,6 @@
 .cover {
     margin-top: 66px;
     background-image: url("../../images/cover-trains.jpg");
-
-    /*начинает давать горизонтальный скролл*/
-    /*height: 62.5vw;*/
-
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -31,20 +27,24 @@
 @media screen and (min-width: 768px) {
     .cover {
         padding: 115px 104px;
+        margin-top: 90px;
+        min-height: 480px;
     }
 }
 
-/*@media screen and (min-width: 1024px) {*/
-/*    .photo {*/
-/*        padding-top: 196px;*/
-/*        max-width: 1184px;*/
-/*        max-height: 740px;*/
-/*        margin: 0 auto;*/
-/*    }*/
-/*}*/
+@media screen and (min-width: 1024px) {
+    .cover {
+        padding: 195px 232px;
+        margin-top: 92px;
+        min-height: 640px;
+    }
+}
 
-/*@media screen and (min-width: 1280px) {*/
-/*    .photo {*/
-/*        padding-top: 214px;*/
-/*    }*/
-/*}*/
+@media screen and (min-width: 1280px) {
+    .cover {
+        padding: 245px 312px;
+        min-height: 740px;
+        margin: 92px 48px 0;
+        max-width: 92.5%;
+    }
+}
