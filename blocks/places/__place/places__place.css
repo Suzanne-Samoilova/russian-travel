@@ -14,7 +14,7 @@
         row-gap: 48px;
         grid-template-areas:
         "title website"
-        "image-box paragraphs"
+        "image-box paragraphs";
     }
 
     .places__place:last-child {
