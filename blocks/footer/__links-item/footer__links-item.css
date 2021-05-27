@@ -7,3 +7,19 @@
     line-height: 24px;
     /* identical to box height, or 100% */
 }
+
+
+@media screen and (min-width: 768px) {
+    .footer__links-item {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
+
+
+
+
+/* identical to box height, or 112% */
