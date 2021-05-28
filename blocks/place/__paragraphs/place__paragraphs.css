@@ -1,9 +1,9 @@
-.places__paragraphs {
+.place__paragraphs {
 
 }
 
 @media screen and (min-width: 768px) {
-    .places__paragraphs {
+    .place__paragraphs {
         grid-area: paragraphs;
     }
 }

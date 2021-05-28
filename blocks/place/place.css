@@ -1,12 +1,12 @@
 /*Одна карточка в таблице*/
-.places__place {
+.place {
     list-style: none;
     padding: 0;
     margin: 50px 0 0;
 }
 
 @media screen and (min-width: 768px) {
-    .places__place {
+    .place {
         margin: 0 auto 73px;
         display: grid;
         grid-template-columns: 340px 352px;
@@ -17,13 +17,13 @@
         "image-box paragraphs";
     }
 
-    .places__place:last-child {
+    .place:last-child {
         margin-bottom: 0;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .places__place {
+    .place {
         grid-template-columns: 440px 456px;
         gap: 48px 32px;
         margin-bottom: 80px;
@@ -31,7 +31,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .places__place {
+    .place {
         grid-template-columns: 460px 484px;
         gap: 48px 40px;
     }

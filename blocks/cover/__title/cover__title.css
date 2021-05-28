@@ -1,13 +1,11 @@
 .cover__title {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    margin: 33px auto 0;
     font-style: normal;
     font-weight: 900;
     font-size: 32px;
     line-height: 35px;
     text-align: center;
-    position: relative;
+    max-width: 255px;
 }
 
 .cover__title:hover {
@@ -18,5 +16,19 @@
     .cover__title {
         font-size: 72px;
         line-height: 76px;
+        max-width: 560px;
+        margin-top: 115px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cover__title {
+        margin-top: 195px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .cover__title {
+        margin-top: 245px;
     }
 }
